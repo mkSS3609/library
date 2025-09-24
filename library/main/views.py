@@ -34,7 +34,6 @@ class BookDetailsView(RetrieveAPIView):
     serializer_class = BookSerializer
 
 
-
 class BookUpdateView(UpdateAPIView):
     # реализуйте логику обновления объявления
     queryset = Book.objects.all()
